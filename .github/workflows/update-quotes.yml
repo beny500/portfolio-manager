@@ -1,0 +1,31 @@
+name: Update daily market quotes
+on:
+  schedule:
+    - cron: '30 22 * * 1-5'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: daily-quotes
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      QUOTE_SYMBOLS_JSON: ${{ secrets.QUOTE_SYMBOLS_JSON }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+      - name: Download daily quotes
+        run: python scripts/update_quotes.py
+      - name: Commit public quotes only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add prices.json
+          git diff --cached --quiet || git commit -m "Update daily market quotes"
+          git push
