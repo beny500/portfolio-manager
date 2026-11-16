@@ -1,0 +1,11 @@
+{
+  "provider": "Stooq / Yahoo Finance + BCE",
+  "updatedAt": null,
+  "quotes": [],
+  "failed": [],
+  "coverage": {
+    "symbols": 0,
+    "updated": 0,
+    "failed": 0
+  }
+}

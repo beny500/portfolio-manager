@@ -1,0 +1,16 @@
+INSTALLATION GITHUB — PORTFOLIO MANAGER SÉCURISÉ
+
+Le dépôt et le site Pages sont publics. Ne publie aucune sauvegarde, aucun CSV, aucune quantité, aucun PRU, aucun compte.
+
+1. Décompresse le ZIP public et téléverse tout son contenu dans https://github.com/beny500/portfolio-manager, y compris .github/workflows/update-quotes.yml. Aucun symbols.json ne doit être présent.
+2. Dans Settings > Secrets and variables > Actions > New repository secret, nomme le secret QUOTE_SYMBOLS_JSON et colle le contenu intégral du fichier QUOTE_SYMBOLS_JSON_SECRET.txt fourni séparément. Ne téléverse jamais ce fichier privé.
+3. Dans Settings > Pages, choisis Deploy from a branch, main, /(root), puis Save. L'adresse sera https://beny500.github.io/portfolio-manager/.
+4. Dans Actions > Update daily market quotes > Run workflow, lance le premier test. Vérifie que le fichier prices.json contient des prix avec des IDs aléatoires et aucun ticker.
+5. Ouvre le site, va dans Paramètres > Configuration privée des cotations > Importer la configuration privée, puis sélectionne correspondances_privees.json fourni séparément.
+6. Restaure ensuite ta sauvegarde JSON personnelle dans Paramètres > Sauvegarde & restauration, puis clique Actualiser les cours.
+
+Les deux fichiers privés sont dans le ZIP privé séparé. Garde-les sur tes appareils et ne les téléverse jamais sur GitHub. Pour chaque nouvel appareil/navigateur, importe correspondances_privees.json et restaure ta sauvegarde.
+
+Actualisation automatique les jours ouvrés à 22:30 UTC ; GitHub peut retarder les tâches programmées et les désactiver après 60 jours sans activité dans un dépôt public. Le bouton de l'application relit prices.json mais ne déclenche pas lui-même Actions. Cours quotidiens de clôture, non temps réel. Stooq/Yahoo sont non officiels et peuvent être limités ; les correspondances restent à vérifier.
+
+Le stockage local n'est pas synchronisé entre appareils et n'est pas chiffré contre quelqu'un qui accède à ton navigateur déverrouillé. Si des données privées ont déjà été commitées, les supprimer du dernier commit ne les retire pas forcément de l'historique Git.
