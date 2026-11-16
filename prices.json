@@ -1,11 +1,406 @@
 {
   "provider": "Stooq / Yahoo Finance + BCE",
-  "updatedAt": null,
-  "quotes": [],
-  "failed": [],
+  "updatedAt": "2026-11-16T03:24:18.847721+00:00",
+  "quotes": [
+    {
+      "id": "29d9080b61124bde88ab4ba406c39390",
+      "nativePrice": 6.235000133514404,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 6.23500013,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "a4146082f43e4a4eafd0ea6dd27eb2fe",
+      "nativePrice": 7.610000133514404,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 7.61000013,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "97bac9a6ab3a45b4ad5ac710a55dd683",
+      "nativePrice": 49.119998931884766,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 49.11999893,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "a1f12e09ada34a1a97315cdd82fcd5ff",
+      "nativePrice": 57.52000045776367,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 57.52000046,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "6af821fab515476fab6fc591bab30363",
+      "nativePrice": 84.19999694824219,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 84.19999695,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "d50c7480a5f048b1b2095c6bc2a7c89e",
+      "nativePrice": 67.4800033569336,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 67.48000336,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "5f7bc5c82556419980f98b491dc1c84a",
+      "nativePrice": 19.200000762939453,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 19.20000076,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "b88ea3d2bd3a4ec384115756694aba3c",
+      "nativePrice": 72.77999877929688,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 72.77999878,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "67348ac8c3574bc39a42863f98758641",
+      "nativePrice": 403.45001220703125,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 403.45001221,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "12595d177d504e21af5a3cb52d09baca",
+      "nativePrice": 127.4000015258789,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 127.40000153,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "ad22f8d11e864e89875e0a39240a47a3",
+      "nativePrice": 36.7400016784668,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 36.74000168,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "680d8576b01649beb5a8b3b1ebac9579",
+      "nativePrice": 25.520000457763672,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 25.52000046,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "c597ea38152941c5a56f1464796e5a1e",
+      "nativePrice": 21.81999969482422,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 21.81999969,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "6730e37bceab48e0b2263116a4c0cffb",
+      "nativePrice": 1.5099999904632568,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 1.50999999,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "b158bcebf02747f88a0dd13b07fc474f",
+      "nativePrice": 44.36000061035156,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 44.36000061,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "ede6b79f74a44190af4b0c0a5faa8ba3",
+      "nativePrice": 90.83999633789062,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 90.83999634,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "44c7ef3e5e6a4711bdc3a2e40b0a783c",
+      "nativePrice": 45.400001525878906,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 45.40000153,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "ae30c75bffe64fe286ae5bf19c4661c1",
+      "nativePrice": 56.52000045776367,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 56.52000046,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "11dd0a858f3c4a6db2b417aa713135de",
+      "nativePrice": 14.0,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 14.0,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "521945c789dc4f6eaed8b71073ffea59",
+      "nativePrice": 184.63999938964844,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 184.63999939,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    },
+    {
+      "id": "30344aed81f34d16b677d1ff61835412",
+      "nativePrice": 4.331999778747559,
+      "currency": "EUR",
+      "fxRate": 1.0,
+      "priceEur": 4.33199978,
+      "date": "2026-11-13",
+      "source": "Yahoo Finance (unofficial chart endpoint)"
+    }
+  ],
+  "failed": [
+    {
+      "id": "08140f86e9554422b23fe617e2c82c3d",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "30414e363bba42b1b28c2293556c2792",
+      "reason": "no quote"
+    },
+    {
+      "id": "07acb504a21e4b8c913311f6e83c7d46",
+      "reason": "no quote"
+    },
+    {
+      "id": "88b420f7b44f4d058dbe88cf94415c95",
+      "reason": "no quote"
+    },
+    {
+      "id": "d8b688fe30e8433fa49ed4be3ac7010d",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "01ab5b848d004021bca26e25159e4554",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "3365a0dfdbb640778dc9a466a53c95d7",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "36c8b5ab48814811accf05561fbdb971",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "e8eb4d96e2404a4c9ced82622ce6078c",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "ac6d72f4c4a64b49be5f97ec69439f1c",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "1118e76fabec453a90e35752bbd4a4aa",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "1d9543df1c0343238ed816ae15198920",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "716da9a09f0649e1939672bc4884b996",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "513e2aa906254e7189e17a3ef6673b84",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "da4dd806e23a4873982c3e52e929e079",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "f5b50ea1e528480b90f68350dd8b67c1",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "078fefc55de944d3b35eb65cfe8921ee",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "cfe8efef352747569d79fd7bf4877b13",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "3e29ab3a0780478b8d4fa55e656ecb4c",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "3f777ae612e54d5499168fd688184618",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "a14b2905384d431688341029f80474b8",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "691d640c24764cafa3117917ce4f14a0",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "f08f6c9342a2409ba0b4a3be86f89f57",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "970276f9e89e4f6ea37969449b038189",
+      "reason": "no quote"
+    },
+    {
+      "id": "2cdb1d9260124fd689c4085990fe9af2",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "f4f23deca61749b6b54af4c6d15747dc",
+      "reason": "no quote"
+    },
+    {
+      "id": "9983fb98daa84e0db0b8b8a2d2a281d5",
+      "reason": "no quote"
+    },
+    {
+      "id": "28128e5e61b849bea55280d8bfd60d55",
+      "reason": "no quote"
+    },
+    {
+      "id": "51487b67695949149e54b1821933d362",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "74ab86b5002542598970fca975e6a2f3",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "f21607e0c0234e19a48f31893e18897c",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "69b952f08d734b468685a4601787933e",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "5240e78af23e47aebbd1796cae85f6e6",
+      "reason": "no quote"
+    },
+    {
+      "id": "09ed91bf0b3d44f8ab0041921c144f07",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "cda1e23f748d4800a21c322fa4caae5e",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "2385a1e507b64344a528407fe481d3f6",
+      "reason": "no quote"
+    },
+    {
+      "id": "5918d4e2f44d4fc4aa98e2943185b702",
+      "reason": "no quote"
+    },
+    {
+      "id": "b378920b02bd4ae08f503ec10cbdce66",
+      "reason": "no quote"
+    },
+    {
+      "id": "a98d58ebd19d4b87b6e3165a4167b413",
+      "reason": "no quote"
+    },
+    {
+      "id": "247b384785884b399e2a8f93d65b4e30",
+      "reason": "no quote"
+    },
+    {
+      "id": "8615e4cb2df0476397e6035e42925e05",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "b53ebda157504c43ac371b9ce36f8c60",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "3e9aec3fb2e34e07b615430ae4566497",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "593014093fbf4aa2a9d834b5d42358cb",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "8f358f2344ca4819bd8febfb971cede7",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "9863a28f5ff741ddb23b281486ebba52",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "da14b9b7501f47ffaab43028bff14f64",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "821de15e65ee4fad94069525c03599a5",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "07c2cf8f6b73459592671e7fd1136a9f",
+      "reason": "no quote"
+    },
+    {
+      "id": "979f9dfd133044e398c074382c9d5bc1",
+      "reason": "FX unavailable"
+    },
+    {
+      "id": "05ae9c6d95014c8ea3d347d98d2b718d",
+      "reason": "no quote"
+    }
+  ],
   "coverage": {
-    "symbols": 0,
-    "updated": 0,
-    "failed": 0
+    "symbols": 72,
+    "updated": 21,
+    "failed": 51
   }
 }
