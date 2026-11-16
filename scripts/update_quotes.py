@@ -23,6 +23,7 @@ for item in SYMBOLS:
     seen.add(item["id"])
 
 UA = "Mozilla/5.0 (compatible; PortfolioManagerDailyQuotes/1.1)"
+TARGET_NO_QUOTE_IDS = {'88b420f7b44f4d058dbe88cf94415c95', '970276f9e89e4f6ea37969449b038189', 'f4f23deca61749b6b54af4c6d15747dc', '9983fb98daa84e0db0b8b8a2d2a281d5', '247b384785884b399e2a8f93d65b4e30', '30414e363bba42b1b28c2293556c2792', '07acb504a21e4b8c913311f6e83c7d46', '28128e5e61b849bea55280d8bfd60d55', 'b378920b02bd4ae08f503ec10cbdce66', '5918d4e2f44d4fc4aa98e2943185b702', '07c2cf8f6b73459592671e7fd1136a9f', '5240e78af23e47aebbd1796cae85f6e6', '2385a1e507b64344a528407fe481d3f6', '05ae9c6d95014c8ea3d347d98d2b718d', 'a98d58ebd19d4b87b6e3165a4167b413'}
 def get(url, timeout=25):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
     with urllib.request.urlopen(req, timeout=timeout) as response:
@@ -43,7 +44,7 @@ def fx_rates():
         raise RuntimeError("ECB response parsed incorrectly: too few FX rates")
     return rates
 
-def stooq_quote(symbol):
+def stooq_quote(symbol, timeout=25):
     if not symbol:
         return None
     end = datetime.date.today()
@@ -53,7 +54,7 @@ def stooq_quote(symbol):
         "d2": end.strftime("%Y%m%d"), "i": "d"
     })
     try:
-        lines = get(url).decode("utf-8", "replace").strip().splitlines()
+        lines = get(url, timeout=timeout).decode("utf-8", "replace").strip().splitlines()
         if len(lines) < 2 or lines[0].lower().startswith("no data"):
             return None
         headers = [value.strip().lower() for value in lines[0].split(",")]
@@ -66,13 +67,13 @@ def stooq_quote(symbol):
         return None
     return None
 
-def yahoo_quote(symbol):
+def yahoo_quote(symbol, timeout=25):
     if not symbol:
         return None
     try:
         url = ("https://query1.finance.yahoo.com/v8/finance/chart/"
                + urllib.parse.quote(symbol, safe="") + "?range=5d&interval=1d")
-        data = json.loads(get(url).decode("utf-8"))
+        data = json.loads(get(url, timeout=timeout).decode("utf-8"))
         result = data["chart"]["result"][0]
         meta = result["meta"]
         closes = result["indicators"]["quote"][0]["close"]
@@ -92,14 +93,17 @@ def main():
     rates = fx_rates()
     quotes, failures = [], []
     for item in SYMBOLS:
+        # Only the 15 previously failing opaque IDs use a shorter network timeout.
+        # The 57 other entries keep the original 25-second behavior unchanged.
+        quote_timeout = 8 if item["id"] in TARGET_NO_QUOTE_IDS else 25
         currency = (item.get("currency") or "").upper()
         source = ""
-        quote = stooq_quote(item.get("stooq", ""))
+        quote = stooq_quote(item.get("stooq", ""), timeout=quote_timeout)
         if quote:
             native_price, date = quote
             source = "Stooq"
         else:
-            yahoo = yahoo_quote(item.get("yahoo", ""))
+            yahoo = yahoo_quote(item.get("yahoo", ""), timeout=quote_timeout)
             if not yahoo:
                 failures.append({"id": item["id"], "reason": "no quote"})
                 continue
