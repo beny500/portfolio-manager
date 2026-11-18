@@ -1,6 +1,6 @@
 {
   "provider": "Stooq / Yahoo Finance + BCE",
-  "updatedAt": "2026-11-17T23:30:27.810291+00:00",
+  "updatedAt": "2026-11-18T04:36:30.618789+00:00",
   "quotes": [
     {
       "id": "29d9080b61124bde88ab4ba406c39390",
@@ -436,19 +436,19 @@
     },
     {
       "id": "74ab86b5002542598970fca975e6a2f3",
-      "nativePrice": 0.8598999977111816,
+      "nativePrice": 0.8600000143051147,
       "currency": "USD",
       "fxRate": 1.0989,
-      "priceEur": 0.78250978,
+      "priceEur": 0.7826008,
       "date": "2026-11-17",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "f21607e0c0234e19a48f31893e18897c",
-      "nativePrice": 0.3407000005245209,
+      "nativePrice": 0.3409999907016754,
       "currency": "USD",
       "fxRate": 1.0989,
-      "priceEur": 0.31003731,
+      "priceEur": 0.3103103,
       "date": "2026-11-17",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
