@@ -1,140 +1,140 @@
 {
   "provider": "Stooq / Yahoo Finance + BCE",
-  "updatedAt": "2026-11-20T21:47:45.182753+00:00",
+  "updatedAt": "2026-11-20T23:25:05.947251+00:00",
   "quotes": [
     {
       "id": "29d9080b61124bde88ab4ba406c39390",
-      "nativePrice": 5.679999828338623,
+      "nativePrice": 5.914999961853027,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 5.67999983,
-      "date": "2026-11-20",
+      "priceEur": 5.91499996,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "a4146082f43e4a4eafd0ea6dd27eb2fe",
-      "nativePrice": 6.949999809265137,
+      "nativePrice": 7.170000076293945,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 6.94999981,
-      "date": "2026-11-20",
+      "priceEur": 7.17000008,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "97bac9a6ab3a45b4ad5ac710a55dd683",
-      "nativePrice": 49.97999954223633,
+      "nativePrice": 49.380001068115234,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 49.97999954,
-      "date": "2026-11-20",
+      "priceEur": 49.38000107,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "a1f12e09ada34a1a97315cdd82fcd5ff",
-      "nativePrice": 53.459999084472656,
+      "nativePrice": 54.34000015258789,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 53.45999908,
-      "date": "2026-11-20",
+      "priceEur": 54.34000015,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "6af821fab515476fab6fc591bab30363",
-      "nativePrice": 79.18000030517578,
+      "nativePrice": 79.0199966430664,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 79.18000031,
-      "date": "2026-11-20",
+      "priceEur": 79.01999664,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "d50c7480a5f048b1b2095c6bc2a7c89e",
-      "nativePrice": 62.619998931884766,
+      "nativePrice": 64.63999938964844,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 62.61999893,
-      "date": "2026-11-20",
+      "priceEur": 64.63999939,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "08140f86e9554422b23fe617e2c82c3d",
-      "nativePrice": 907.5999755859375,
+      "nativePrice": 922.4000244140625,
       "currency": "DKK",
       "fxRate": 7.4746,
-      "priceEur": 121.42455457,
-      "date": "2026-11-20",
+      "priceEur": 123.40460017,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "5f7bc5c82556419980f98b491dc1c84a",
-      "nativePrice": 18.850000381469727,
+      "nativePrice": 19.100000381469727,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 18.85000038,
-      "date": "2026-11-20",
+      "priceEur": 19.10000038,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "b88ea3d2bd3a4ec384115756694aba3c",
-      "nativePrice": 71.23999786376953,
+      "nativePrice": 70.94000244140625,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 71.23999786,
-      "date": "2026-11-20",
+      "priceEur": 70.94000244,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "67348ac8c3574bc39a42863f98758641",
-      "nativePrice": 381.95001220703125,
+      "nativePrice": 391.8999938964844,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 381.95001221,
-      "date": "2026-11-20",
+      "priceEur": 391.8999939,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "12595d177d504e21af5a3cb52d09baca",
-      "nativePrice": 117.69999694824219,
+      "nativePrice": 116.05000305175781,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 117.69999695,
-      "date": "2026-11-20",
+      "priceEur": 116.05000305,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "ad22f8d11e864e89875e0a39240a47a3",
-      "nativePrice": 36.619998931884766,
+      "nativePrice": 36.459999084472656,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 36.61999893,
-      "date": "2026-11-20",
+      "priceEur": 36.45999908,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "30414e363bba42b1b28c2293556c2792",
-      "nativePrice": 1.6959999799728394,
+      "nativePrice": 1.7000000476837158,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 1.69599998,
-      "date": "2026-11-20",
+      "priceEur": 1.70000005,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "680d8576b01649beb5a8b3b1ebac9579",
-      "nativePrice": 24.329999923706055,
+      "nativePrice": 24.190000534057617,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 24.32999992,
-      "date": "2026-11-20",
+      "priceEur": 24.19000053,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "c597ea38152941c5a56f1464796e5a1e",
-      "nativePrice": 21.329999923706055,
+      "nativePrice": 21.360000610351562,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 21.32999992,
-      "date": "2026-11-20",
+      "priceEur": 21.36000061,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
@@ -148,38 +148,38 @@
     },
     {
       "id": "b158bcebf02747f88a0dd13b07fc474f",
-      "nativePrice": 39.4900016784668,
+      "nativePrice": 41.20000076293945,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 39.49000168,
-      "date": "2026-11-20",
+      "priceEur": 41.20000076,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "07acb504a21e4b8c913311f6e83c7d46",
-      "nativePrice": 105.62000274658203,
+      "nativePrice": 107.5,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 105.62000275,
-      "date": "2026-11-20",
+      "priceEur": 107.5,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "ede6b79f74a44190af4b0c0a5faa8ba3",
-      "nativePrice": 85.87999725341797,
+      "nativePrice": 86.31999969482422,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 85.87999725,
-      "date": "2026-11-20",
+      "priceEur": 86.31999969,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "88b420f7b44f4d058dbe88cf94415c95",
-      "nativePrice": 3.125499963760376,
+      "nativePrice": 3.237499952316284,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 3.12549996,
-      "date": "2026-11-20",
+      "priceEur": 3.23749995,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
@@ -211,11 +211,11 @@
     },
     {
       "id": "44c7ef3e5e6a4711bdc3a2e40b0a783c",
-      "nativePrice": 43.4900016784668,
+      "nativePrice": 43.15999984741211,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 43.49000168,
-      "date": "2026-11-20",
+      "priceEur": 43.15999985,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
@@ -364,20 +364,20 @@
     },
     {
       "id": "ae30c75bffe64fe286ae5bf19c4661c1",
-      "nativePrice": 53.36000061035156,
+      "nativePrice": 54.68000030517578,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 53.36000061,
-      "date": "2026-11-20",
+      "priceEur": 54.68000031,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "11dd0a858f3c4a6db2b417aa713135de",
-      "nativePrice": 13.550000190734863,
+      "nativePrice": 13.649999618530273,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 13.55000019,
-      "date": "2026-11-20",
+      "priceEur": 13.64999962,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
@@ -463,11 +463,11 @@
     },
     {
       "id": "5240e78af23e47aebbd1796cae85f6e6",
-      "nativePrice": 4.335000038146973,
+      "nativePrice": 4.435500144958496,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 4.33500004,
-      "date": "2026-11-20",
+      "priceEur": 4.43550014,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
@@ -490,11 +490,11 @@
     },
     {
       "id": "2385a1e507b64344a528407fe481d3f6",
-      "nativePrice": 23.239999771118164,
+      "nativePrice": 23.540000915527344,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 23.23999977,
-      "date": "2026-11-20",
+      "priceEur": 23.54000092,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
@@ -503,34 +503,34 @@
       "currency": "EUR",
       "fxRate": 1.0,
       "priceEur": 8.69999981,
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "b378920b02bd4ae08f503ec10cbdce66",
-      "nativePrice": 11.508000373840332,
+      "nativePrice": 11.925999641418457,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 11.50800037,
-      "date": "2026-11-20",
+      "priceEur": 11.92599964,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "a98d58ebd19d4b87b6e3165a4167b413",
-      "nativePrice": 4.560999870300293,
+      "nativePrice": 4.631999969482422,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 4.56099987,
-      "date": "2026-11-20",
+      "priceEur": 4.63199997,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
       "id": "247b384785884b399e2a8f93d65b4e30",
-      "nativePrice": 8.637999534606934,
+      "nativePrice": 8.439000129699707,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 8.63799953,
-      "date": "2026-11-20",
+      "priceEur": 8.43900013,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
@@ -571,11 +571,11 @@
     },
     {
       "id": "521945c789dc4f6eaed8b71073ffea59",
-      "nativePrice": 172.32000732421875,
+      "nativePrice": 179.32000732421875,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 172.32000732,
-      "date": "2026-11-20",
+      "priceEur": 179.32000732,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
@@ -634,11 +634,11 @@
     },
     {
       "id": "30344aed81f34d16b677d1ff61835412",
-      "nativePrice": 3.200000047683716,
+      "nativePrice": 4.169000148773193,
       "currency": "EUR",
       "fxRate": 1.0,
-      "priceEur": 3.20000005,
-      "date": "2026-11-20",
+      "priceEur": 4.16900015,
+      "date": "2026-11-19",
       "source": "Yahoo Finance (unofficial chart endpoint)"
     },
     {
